@@ -1,0 +1,49 @@
+# Environment variables
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/
+
+# Data files
+data/
+
+# Temporary files
+temp_doc_content.txt
+*.tmp
+*.log
+
+# Generated Diagrams
+diagrams/
+
+# Dev/Utility Scripts (Not for deployment)
+generate_diagrams.py
+regenerate_diagrams_v2.py
+convert_to_png.py
+test_audit.py
